@@ -1,3 +1,7 @@
+// server components
+// agola naki client ar kase jabei na
+
+import Counter from "./components/Counter";
 
 
 export default async function Home() {
@@ -17,6 +21,10 @@ export default async function Home() {
         <li key={c.id}>{c.title}</li>
       ))}
     </ul>
+
+    <hr />
+
+    <Counter />
    </div>
   );
 }
