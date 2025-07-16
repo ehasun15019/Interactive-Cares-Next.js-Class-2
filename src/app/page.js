@@ -2,6 +2,7 @@
 // agola naki client ar kase jabei na
 
 import Counter from "./components/Counter";
+// import Counter from "@/app/components/Counter"
 
 
 export default async function Home() {
